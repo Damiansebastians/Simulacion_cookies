@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <script src="simulacion_cookies.js"></script>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Simulación de alert de cookies</title>
+        </head>
+        <body onload="mostrar_cookies()">
+            <div id="web" style="width:90%; background-color: gold;z-index: 0;left: 50px;position: absolute;"><center><h1>Bienvenidos a mi WEB!!</h1></center></div>
+            <div id="cookies" style="z-index: 1;width: 75%; height: 70%;color: black;border: 2px solid black; font-size: 250%; position: absolute; left: 100px; top: 150px; background-color: gray;">
+                <center><br> Utilizamos cookies propias y de terceros para obtener datos estadísticos 
+                de la navegación de nuestros usuarios y mejorar nuestros servicios. 
+                Si acepta o continúa navegando, consideramos que acepta su uso 
+                <P onclick="ocultar_cookies()" style="cursor:pointer;"><strong>ACEPTAR</strong></P>
+                <p style="cursor:pointer;"><strong>CANCELAR</strong></p> 
+                </center>
+            </div>
+        </body>
+    </html>
